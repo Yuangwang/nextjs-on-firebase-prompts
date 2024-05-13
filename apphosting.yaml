@@ -1,0 +1,25 @@
+runConfig:
+  cpu: 2
+  minInstances: 0
+  maxInstances: 14
+  concurrency: 2
+  memoryMiB: 1024
+
+env:
+  # Override with environment-specific values. 
+  - variable: ENVIRONMENT
+    value: STAGING
+
+  # Read from SecretManager at build & runtime.
+  - variable: MY_DATABASE_KEY
+    secret: db_key
+
+  # Set unique values for each deploy phase!
+  - variable: PHASE
+    value: BUILD
+    availability:
+      - BUILD
+  - variable: PHASE
+    value: RUN
+    availability:
+      - RUNTIME
