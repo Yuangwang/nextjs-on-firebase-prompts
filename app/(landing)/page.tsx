@@ -89,6 +89,9 @@ export default function Home() {
           Cloud Run server.
         </p>
         <ServerActionForm />
+        <Link href="/middleware-redirect">
+          <Chip>/middleware-redirect</Chip>
+        </Link>{" "}
       </div>
     </>
   );
