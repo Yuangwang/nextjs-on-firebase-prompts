@@ -29,6 +29,7 @@ export default async function SsrPage() {
       <p className="font-mono">UUID: {uuid}</p>
       <p className="font-mono">Environment: {process.env.ENVIRONMENT}</p>
       <p className="font-mono">Phase: {process.env.PHASE}</p>
+      <p className="font-mono">URL: {process.env.API_URL}</p>
       <p className="font-mono">
         MY_DATABASE_KEY: {process.env.MY_DATABASE_KEY}
       </p>
