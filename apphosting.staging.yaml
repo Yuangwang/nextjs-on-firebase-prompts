@@ -1,3 +1,5 @@
 env:
   - variable: API_URL
     value: api.service.comstaging
+ - variable: ENVIRONMENT
+    value: STAGING_OVERRIDE
