@@ -18,5 +18,3 @@ env:
     value: RUN
     availability:
       - RUNTIME
-  - variable: GOOGLE_GENAI_API_KEY
-    secret: GOOGLE_GENAI_API_KEY
