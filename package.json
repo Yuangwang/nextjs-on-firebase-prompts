@@ -7,14 +7,12 @@
     "build:clean": "rm -rf ./lib",
     "build:watch": "tsc --watch",
     "dev": "next dev",
-    "lint": "next lint",
-    "gcp-build": "wei-apphosting-adapter-nextjs-build"
+    "lint": "next lint"
   },
   "name": "nextjs-test-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apphosting/adapter-nextjs":"14.0.15",
     "@genkit-ai/ai": "^0.5.0-rc.8",
     "@genkit-ai/core": "^0.5.0-rc.8",
     "@genkit-ai/dotprompt": "^0.5.0-rc.8",
@@ -28,8 +26,6 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
-    "wei-adapter-nextjs": "14.0.22",
-    "@apphosting/adapter-nextjs": "14.0.15",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
