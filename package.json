@@ -6,9 +6,9 @@
     "build": "next build",
     "build:clean": "rm -rf ./lib",
     "build:watch": "tsc --watch",
-    "apphosting:build": "apphosting-adapter-nextjs-build",
     "dev": "next dev",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gcp-build": "wei-apphosting-adapter-nextjs-build"
   },
   "name": "nextjs-test-app",
   "version": "0.1.0",
@@ -28,6 +28,8 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
+    "wei-adapter-nextjs": "14.0.22",
+    "@apphosting/adapter-nextjs": "14.0.15",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
