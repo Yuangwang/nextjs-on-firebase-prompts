@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
-    "wei-adapter-nextjs": "14.0.22",
+    "wei-adapter-nextjs": "14.0.23",
     "@apphosting/adapter-nextjs": "14.0.15",
     "@types/node": "^20",
     "@types/react": "^18",
